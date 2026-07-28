@@ -1,0 +1,6 @@
+.Hero {
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69)) ,
+    url(./src/assets/hero.jpg);
+    
+}
