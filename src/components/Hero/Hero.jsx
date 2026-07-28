@@ -1,7 +1,7 @@
 // import  styles  from "Hero.module.css"
+import hero from "../../assets/hero.jpg";
 
 import { FaStar } from "react-icons/fa";
-import classes from "./Hero.module.css";
 import Navbar from "./../Navbar/Navbar";
 
 export default function Hero() {
@@ -10,8 +10,11 @@ export default function Hero() {
       <Navbar />
       <section
         className={
-          `h-screen bg-no-repeat bg-cover bg-center bg ` + classes.Hero
+          `h-screen bg-no-repeat bg-cover bg-center bg ` 
         }
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(${hero})`,
+        }}
       >
         <div className="container h-full flex items-center ">
           <div className="caption">
@@ -50,5 +53,3 @@ export default function Hero() {
     </>
   );
 }
-
-
