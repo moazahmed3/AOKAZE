@@ -66,7 +66,7 @@ export default function About() {
               <span className="ms-1 text-caption">/person</span>
             </div>
             {/* boxes */}
-            <div className="box mt-10 flex items-center justify-between">
+            <div className="box mt-10 flex items-center flex-wrap gap-5 justify-between">
               <div className="icon flex items-center gap-5 ">
                 <span className="   size-10 rounded-[50%] bg-primary/10    flex items-center justify-center  ">
                   <FaCalendarAlt size={20} className="text-secondary" />
@@ -83,7 +83,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="box mt-10 flex items-center justify-between">
+            <div className="box mt-10 flex items-center  flex-wrap gap-5 justify-between">
               <div className="icon flex items-center gap-5 ">
                 <span className="   size-10 rounded-[50%] bg-primary/10    flex items-center justify-center  ">
                   <FaCalendarAlt size={20} className="text-secondary" />
@@ -99,7 +99,7 @@ export default function About() {
                 </span>
               </div>
             </div>
-            <div className="box mt-10 flex items-center justify-between">
+            <div className="box mt-10 flex items-center  flex-wrap gap-5 justify-between">
               <div className="icon flex items-center gap-5 ">
                 <span className="   size-10 rounded-[50%] bg-primary/10    flex items-center justify-center  ">
                   <MdGroups  size={20} className="text-secondary" />
@@ -115,7 +115,7 @@ export default function About() {
                 </span>
               </div>
             </div>
-            <div className="box mt-10 flex items-center justify-between">
+            <div className="box mt-10 flex items-center  flex-wrap gap-5 justify-between">
               <div className="icon flex items-center gap-5 ">
                 <span className="   size-10 rounded-[50%] bg-primary/10    flex items-center justify-center  ">
                   <IoMdTime size={20} className="text-secondary" />

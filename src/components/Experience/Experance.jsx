@@ -4,7 +4,7 @@ import { FaWheatAwn } from "react-icons/fa6";
 
 export default function Experience() {
   return (
-    <section id="Experience" className="bg-third py-10">
+    <section id="Experience" className="bg-third pt-10 pb-25" >
       <div className="container">
         <div className="main-header flex justify-center items-center gap-3">
           <span className="bg-primary h-0.5 w-10 block"></span>
