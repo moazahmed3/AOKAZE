@@ -1,7 +1,7 @@
 export default function ItineraryCard(props) {
   const { img, title, day, city, description, dir } = props.item;
   return (
-    <div className="card bg-gray-700 pb-3 rounded-3xl">
+    <div className="card bg-gray-700 pb-3 rounded-3xl mb-10 lg-m-0">
       <div className="card-img relative">
         <img
           src={img}

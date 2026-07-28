@@ -104,18 +104,18 @@ export default function Itinerary() {
 
         {/* start temple */}
 
-        <div className="grid  gap-5 lg:gap-0 lg:grid-cols-[1fr_0.5fr_1fr] ">
+        <div className="grid   lg:grid-cols-[1fr_0.5fr_1fr] ">
           {cards.map((item, index) => {
             return index % 2 == 0 ? (
               <>
                 <ItineraryCard item={item} />
-                <ItineraryLine number={index+1} />
+                <ItineraryLine number={index + 1} />
                 <div></div>
               </>
             ) : (
               <>
                 <div></div>
-                <ItineraryLine number={index+1} />
+                <ItineraryLine number={index + 1} />
                 <ItineraryCard item={item} />
               </>
             );

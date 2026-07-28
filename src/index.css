@@ -2,6 +2,8 @@
 @import "tailwindcss";
 
 
+
+
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
@@ -47,5 +49,8 @@
 @layer components {
     .btn-primary {
         @apply rounded-4xl bg-primary cursor-pointer px-12 py-3 font-semibold  text-secondary ;
+    }
+    .btn-secondary {
+        @apply rounded-4xl border border-third cursor-pointer px-12 py-3 font-semibold  text-third ;
     }
 }

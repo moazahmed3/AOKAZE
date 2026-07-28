@@ -1,7 +1,12 @@
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experance";
+import Explore from "./components/Explore/Explore";
+import Footer from "./components/Footer/Footer";
+import FQA from "./components/FQA/FQA";
 import Hero from "./components/Hero/Hero";
+import Includes from "./components/Includes/Includes";
 import Itinerary from "./components/Itinerary/Itinerary";
+import Tours from "./components/Tours/Tours";
 
 function App() {
   return (
@@ -11,6 +16,16 @@ function App() {
     <About/>
     <Experience/>
     <Itinerary/>
+
+    <Includes/>
+
+    <FQA/>
+
+    <Tours/>
+
+    <Explore/>
+
+    <Footer/>
     </>
   );
 }
