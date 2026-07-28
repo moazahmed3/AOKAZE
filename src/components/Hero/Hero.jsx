@@ -2,12 +2,10 @@
 import hero from "../../assets/hero.jpg";
 
 import { FaStar } from "react-icons/fa";
-import Navbar from "./../Navbar/Navbar";
 
 export default function Hero() {
   return (
     <>
-      <Navbar />
       <section
         className={
           `h-screen bg-no-repeat bg-cover bg-center bg ` 
