@@ -1,16 +1,121 @@
-# React + Vite
+# 🌸 AOKAZE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and elegant travel landing page inspired by Japanese tourism, built with **React**, **Vite**, and **Tailwind CSS**. The project focuses on delivering a premium user experience with responsive layouts, smooth animations, and a clean UI.
 
-Currently, two official plugins are available:
+## ✨ Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<img width="1901" height="864" alt="image" src="https://github.com/user-attachments/assets/f9faf850-bc19-45aa-a14c-b1df306169c4" />
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+🔗 [https://your-demo-link.com](https://aokaze-tan.vercel.app/)
+
+---
+
+## 🛠️ Built With
+
+- React.js
+- Vite
+- Tailwind CSS v4
+- React Icons
+
+---
+
+## ✨ Features
+
+- Modern & Luxury UI
+- Fully Responsive Design
+- Reusable Components
+- Mobile Navigation
+- Smooth Scrolling
+- Beautiful Typography
+- Clean Folder Structure
+- Optimized Performance
+
+---
+
+## 📂 Folder Structure
+
+```text
+src/
+│
+├── assets/
+├── components/
+│   ├── Navbar/
+│   ├── Hero/
+│   ├── Includes/
+│   ├── Destination/
+│   └── ...
+│
+├── data/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/moazahmed3/AOKAZE.git
+```
+
+Go to the project
+
+```bash
+cd AOKAZE
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+---
+
+## 🎨 Color Palette
+
+| Color | Hex |
+|-------|------|
+| Primary | `#E9B751` |
+| Primary Dark | `#DCA423` |
+| Secondary | `#1C2C40` |
+| Background | `#FCFBF8` |
+
+---
+
+## 📱 Responsive
+
+- ✅ Mobile
+- ✅ Tablet
+- ✅ Desktop
+
+---
+
