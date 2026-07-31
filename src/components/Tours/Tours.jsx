@@ -45,7 +45,7 @@ export default function Tours() {
   ];
 
   return (
-    <section id="#tours" className="py-20 bg-third">
+    <section id="tours" className="py-20 bg-third">
       <div className="container">
         <h2 className="text-center mb-14 text-secondary font-semibold">
           Other Tours <br /> You May Be Interested In

@@ -1,43 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "tailwindcss";
-
-
-
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-    --color-primary :#e9b751;
-    --color-primary-dark:#dca423;
-    --color-secondary:#1c2c40;
-    --color-third :#fcfbf8;
-    
-    --color-caption:#616264;
+  --color-primary: #e9b751;
+  --color-primary-dark: #dca423;
+  --color-secondary: #1c2c40;
+  --color-third: #fcfbf8;
 
+  --color-caption: #616264;
 
-    --font-primary: "Playfair Display", serif;
-    --font-secondary :"Poppins", sans-serif;
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Poppins", sans-serif;
 }
 @layer base {
-  body{
-    @apply font-secondary
+  html {
+    scroll-behavior: smooth;
   }
-  h1{
-    @apply font-primary text-third text-[42px]  lg:text-[70px] font-bold
+  body {
+    @apply font-secondary;
   }
-  h2{
-    @apply text-[40px] lg:text-[48px] font-primary
+  h1 {
+    @apply font-primary text-third text-[42px]  lg:text-[70px] font-bold;
+  }
+  h2 {
+    @apply text-[40px] lg:text-[48px] font-primary;
   }
 
-   h3{
-    @apply text-[25px] lg:text-[30px] font-primary font-semibold text-secondary
+  h3 {
+    @apply text-[25px] lg:text-[30px] font-primary font-semibold text-secondary;
   }
-  p{
-    @apply font-secondary lg:text-[22px] 
+  p {
+    @apply font-secondary lg:text-[22px];
   }
 }
-
-
 
 @layer utilities {
   .container {
@@ -45,12 +42,11 @@
   }
 }
 
-
 @layer components {
-    .btn-primary {
-        @apply rounded-4xl bg-primary cursor-pointer px-12 py-3 font-semibold  text-secondary ;
-    }
-    .btn-secondary {
-        @apply rounded-4xl border border-third cursor-pointer px-12 py-3 font-semibold  text-third ;
-    }
+  .btn-primary {
+    @apply rounded-4xl bg-primary cursor-pointer px-12 py-3 duration-300 hover:-translate-y-0.5 font-semibold  text-secondary;
+  }
+  .btn-secondary {
+    @apply rounded-4xl border border-third cursor-pointer  px-12 py-3 font-semibold  text-third;
+  }
 }

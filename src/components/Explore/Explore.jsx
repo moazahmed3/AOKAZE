@@ -1,6 +1,6 @@
 export default function Explore() {
   return (
-    <section id="explore" className="py-20">
+    <section id="contact" className="py-20">
       <div className="container">
         <div className="content rounded-3xl bg-linear-to-br from-[#2B456A] via-[#334D6B] to-[#5F6965] py-15 px-10 xl:px-30">
           <div className="main-header flex items-center gap-5 ">

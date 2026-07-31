@@ -91,7 +91,7 @@ export default function Itinerary() {
   ];
 
   return (
-    <section id="itinerary" className="py-10 bg-secondary">
+    <section id="destinations" className="py-10 bg-secondary">
       <div className="container">
         <div className="main-header my-10 mb-20">
           <div className=" flex justify-center items-center gap-3">

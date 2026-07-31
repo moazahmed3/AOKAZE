@@ -4,7 +4,7 @@ import { MdGroups } from "react-icons/md";
 
 export default function About() {
   return (
-    <section id="#about" className="py-25 bg-third">
+    <section id="about" className="py-25 bg-third">
       <div className="container">
         <div className="grid lg:grid-cols-2  gap-30">
           {/* caption */}
@@ -25,7 +25,7 @@ export default function About() {
               their craft for generations, and the quiet, hidden places most
               itineraries never reach.
             </p>
-            <p className="text-caption text-base mb-6" >
+            <p className="text-caption text-base mb-6">
               Across eight carefully curated days, your Orienta expert guide
               will lead you through Japan's most iconic landmarks and its most
               intimate moments. To ensure a truly personal experience, every
@@ -40,19 +40,25 @@ export default function About() {
               travelers ever discover.
             </p>
 
-            <div className="items flex gap-5"> 
-                <div className="item border-s-3 ps-4 border-primary">
-                    <span className="text-secondary font-primary text-3xl mb-3 block font-bold">98%</span>
-                    <p className="text-sm text-caption" >Guest satisfaction rate</p>
-                </div>
-                <div className="item border-s-3 ps-4 border-primary">
-                    <span className="text-secondary font-primary text-3xl mb-3 block font-bold">15+</span>
-                    <p className="text-sm text-caption" >Years operating in Japan</p>
-                </div>
-                <div className="item border-s-3 ps-4 border-primary">
-                    <span className="text-secondary font-primary text-3xl mb-3 block font-bold">2,400+</span>
-                    <p className="text-sm text-caption" >Travellers guided</p>
-                </div>
+            <div className="items flex gap-5">
+              <div className="item border-s-3 ps-4 border-primary">
+                <span className="text-secondary font-primary text-3xl mb-3 block font-bold">
+                  98%
+                </span>
+                <p className="text-sm text-caption">Guest satisfaction rate</p>
+              </div>
+              <div className="item border-s-3 ps-4 border-primary">
+                <span className="text-secondary font-primary text-3xl mb-3 block font-bold">
+                  15+
+                </span>
+                <p className="text-sm text-caption">Years operating in Japan</p>
+              </div>
+              <div className="item border-s-3 ps-4 border-primary">
+                <span className="text-secondary font-primary text-3xl mb-3 block font-bold">
+                  2,400+
+                </span>
+                <p className="text-sm text-caption">Travellers guided</p>
+              </div>
             </div>
           </div>
 
@@ -102,7 +108,7 @@ export default function About() {
             <div className="box mt-10 flex items-center  flex-wrap gap-5 justify-between">
               <div className="icon flex items-center gap-5 ">
                 <span className="   size-10 rounded-[50%] bg-primary/10    flex items-center justify-center  ">
-                  <MdGroups  size={20} className="text-secondary" />
+                  <MdGroups size={20} className="text-secondary" />
                 </span>
                 <span className="text-caption font-semibold text-lg">
                   Duration
@@ -150,9 +156,7 @@ export default function About() {
                 </span>
               </div>
               <div className="price">
-                <span className="font-primary   text-4xl">
-                  $16,900
-                </span>
+                <span className="font-primary   text-4xl">$16,900</span>
                 <span className="block text-end text-caption ">total</span>
               </div>
             </div>

@@ -11,7 +11,7 @@ export default function IncludesCard(props) {
   } = props.info;
   return (
     <div
-      className={`"box ${background}  p-10 rounded-3xl mt-10 shadow-md border-secondary/10 border"`}
+      className={`box ${background}  p-10 rounded-3xl mt-10 shadow-md border-secondary/10 border`}
     >
       <span className="text-primary text-sm capitalize">{subTitle}</span>
       <h2 className={`text-4xl  font-medium  ${titleColor}`}>{title}</h2>
@@ -21,7 +21,7 @@ export default function IncludesCard(props) {
           return (
             <li className="flex items-center   gap-4 ">
               <span
-                className={`size-8 rounded-full ${circle} flex justify-center items-center`}
+                className={`w-8 h-8 min-w-8 min-h-8 rounded-full ${circle} flex items-center justify-center shrink-0`}
               >
                 {icon}
               </span>

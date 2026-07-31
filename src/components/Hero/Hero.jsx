@@ -7,15 +7,15 @@ export default function Hero() {
   return (
     <>
       <section
-        className={
-          `h-screen bg-no-repeat bg-cover bg-center bg ` 
-        }
+        className={`h-screen bg-no-repeat bg-cover bg-center bg `}
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(${hero})`,
         }}
+        id="#home"
       >
         <div className="container h-full flex items-center ">
           <div className="caption">
+            {/* main-header */}
             <div className="main-header flex items-center gap-5 ">
               <span className="w-10 h-0.5 bg-primary"></span>
               <span className="text-primary">Signature Japan Collection</span>
